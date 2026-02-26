@@ -1,0 +1,14 @@
+open fresh terminal
+
+git status
+
+git log --oneline --graph --all
+
+git fetch origin
+
+git pull origin main --allow-unrelated-histories
+
+git add .
+git commit -m "Resolved merge conflict"
+
+git push origin main

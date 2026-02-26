@@ -1,0 +1,24 @@
+# Core Scientific Stack (3.13 compatible)
+numpy>=2.1.0
+scipy>=1.14.0
+
+# Deep Learning
+torch>=2.5.0
+torchvision>=0.20.0
+
+# YOLO
+ultralytics>=8.3.0
+
+# Image Processing
+opencv-python>=4.10.0
+Pillow>=10.4.0
+
+# Machine Learning Utilities
+scikit-learn>=1.5.0
+
+# Data Augmentation
+albumentations>=1.4.0
+
+# Utilities
+tqdm>=4.66.0
+matplotlib>=3.9.0

@@ -1,0 +1,60 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit
+.streamlit/
+secrets.toml
+
+# Model Weights
+*.pt
+*.h5
+*.onnx
+*.ckpt
+
+# Embeddings / Pickle
+embeddings/
+*.pkl
+
+# DeepFace Cache
+~/.deepface/
+.deepface/
+
+# YOLO cache
+runs/
+wandb/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Ignore YOLO model
+yolov8n-face.pt
+
+# Or ignore all pt files
+*.pt
+
+# Ignore dataset
+dataset/
