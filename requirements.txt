@@ -5,6 +5,8 @@ scipy>=1.14.0
 # Deep Learning
 torch>=2.5.0
 torchvision>=0.20.0
+tensorflow
+tf_keras
 
 # YOLO
 ultralytics>=8.3.0
@@ -22,3 +24,6 @@ albumentations>=1.4.0
 # Utilities
 tqdm>=4.66.0
 matplotlib>=3.9.0
+
+# app
+streamlit
